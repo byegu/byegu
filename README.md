@@ -74,8 +74,6 @@
 
 [![Solved.ac Profile](https://mazassumnida.wtf/api/v2/generate_badge?boj=rkdqudrn07)](https://solved.ac/profile/rkdqudrn07)
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=byegu&show_icons=true&theme=transparent&hide_border=true&rank_icon=github&include_all_commits=true)](https://github.com/byegu)
-
 [![Algorithm](https://img.shields.io/badge/Algorithm-Java%20solutions-0F172A?style=for-the-badge&logo=github&logoColor=white)](https://github.com/byegu/Algorithm)
 
 </div>
