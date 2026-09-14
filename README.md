@@ -46,20 +46,6 @@ Java와 Spring을 중심으로 인증·인가, 검색, 서비스 연동을 개�
 </td></tr>
 </table>
 
-<table>
-<tr><td>
-<img src="assets/roadai.svg" width="48" height="48" align="right" alt="">
-<sub>03 &nbsp; / &nbsp; AI · 2024</sub>
-<h3>ROADAI · 도로시설물 훼손 탐지</h3>
-<p>주행 이미지에서 횡단보도와 과속방지턱의 종류·훼손 여부를 탐지하는 모델을 학습했습니다.</p>
-<ul>
-<li><b>데이터에서 평가까지</b> — 데이터 선별, Segmentation 기반 YOLO 라벨 변환, 학습·검증 분할과 YOLOv8s 학습·평가를 담당했습니다. AI 보조를 활용해 코드를 구현하고 직접 실행·검증했습니다.</li>
-</ul>
-<p><code>Python</code> <code>YOLOv8s</code> <code>Data Preprocessing</code></p>
-<p><a href="projects/roadai.md"><b>학습 과정과 결과 읽기 →</b></a></p>
-</td></tr>
-</table>
-
 <details>
 <summary><b>현재 작업 · 공동 공연 수익 정산 프로젝트</b></summary>
 <br>
@@ -84,7 +70,6 @@ Java와 Spring을 중심으로 인증·인가, 검색, 서비스 연동을 개�
 
 - **우수상** · SSAFY 공통 프로젝트 DODAM — 팀 수상
 - **대상** · SW아카데미 NHN Academy 프로젝트 최종발표회 No24 — 팀 수상
-- **장려상** · 2024 한국소프트웨어종합학술대회 학부생/주니어 논문경진대회 — ROADAI 관련 논문 공동저자 · 2025.02.03
 
 **정보처리기사 · SQLD · TOEIC Speaking IH**<br>
 SSAFY SW 역량평가 **A등급** · 2026.03.06
