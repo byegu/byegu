@@ -1,79 +1,110 @@
-<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg">
+  <img src="assets/header-light.svg" alt="byegu — Backend Developer. Java & Spring." width="100%">
+</picture>
 
-![header](https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,100:2563EB&height=185&section=header&text=Backend%20Developer&fontSize=42&fontColor=FFFFFF&fontAlignY=35&desc=Reliable%20APIs%20%C2%B7%20Clear%20Data%20Boundaries%20%C2%B7%20Tested%20Systems&descSize=15&descAlignY=56)
+## 강병구 · Backend Developer
 
-### 안녕하세요, 백엔드 개발자 강병구입니다.
+인증된 사용자가 **자신의 데이터에만 접근하도록**, 외부 서비스의 실패가 **다른 업무의 실패로 번지지 않도록** 구현합니다.<br>
+Java와 Spring을 중심으로 인증·인가, 검색, 서비스 연동을 개발해 왔습니다.
 
-업무 규칙과 데이터의 관계를 코드와 테스트로 옮기며  
-운영 환경에서도 신뢰할 수 있는 서비스를 만드는 데 관심이 있습니다.
+**[프로젝트](#selected-work)** &nbsp; / &nbsp; **[기술 스택](#toolbox)** &nbsp; / &nbsp; **[알고리즘 기록](https://github.com/byegu/Algorithm)** &nbsp; / &nbsp; **[solved.ac](https://solved.ac/profile/rkdqudrn07)**
 
-[![GitHub](https://img.shields.io/badge/GitHub-byegu-181717?style=flat-square&logo=github)](https://github.com/byegu)
-[![Solved.ac](https://img.shields.io/badge/solved.ac-Gold%20III-ECB365?style=flat-square)](https://solved.ac/profile/rkdqudrn07)
+<br>
 
-</div>
+## Selected work
 
-## Tech Stack
+<table>
+<tr><td>
+<img src="assets/dodam.svg" width="48" height="48" align="right" alt="">
+<sub>01 &nbsp; / &nbsp; BACKEND · 2026.07 — 2026.08</sub>
+<h3>DODAM · 도담</h3>
+<p>아이의 그림과 AI 대화를 보호자가 함께 돌아보는 서비스.<br>아동의 표현을 이해하기 위한 참고 정보를 제공하며, 심리 진단·치료를 목적으로 하지 않습니다.</p>
+<ul>
+<li><b>인증·인가</b> — 보호자와 아동·그림 활동의 소유 관계를 공통 Validator로 검사하고, Redis Lua 기반 Refresh Token 회전과 재사용 감지를 구현했습니다.</li>
+<li><b>AI 서비스 연동</b> — 60초 단일 사용 이미지 접근, 응답 검증, 오류 분류와 멱등 재시도 처리를 구현했습니다.</li>
+<li><b>서버 리포트</b> — PDFBox와 openhtmltopdf를 비교하고, HTML/CSS 템플릿과 저장소 이미지 자산을 이용한 PDF 생성 경로를 구현했습니다.</li>
+</ul>
+<p><code>Java</code> <code>Spring Boot</code> <code>Spring Security</code> <code>Redis</code> <code>MySQL</code></p>
+<p><a href="projects/dodam.md"><b>구현 과정 읽기 →</b></a></p>
+</td></tr>
+</table>
 
-**Backend**  
-![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
-![Spring Security](https://img.shields.io/badge/Spring%20Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white)
-![JPA](https://img.shields.io/badge/JPA-59666C?style=flat-square&logo=hibernate&logoColor=white)
-![QueryDSL](https://img.shields.io/badge/QueryDSL-0769AD?style=flat-square)
+<table>
+<tr><td>
+<img src="assets/no24.svg" width="48" height="48" align="right" alt="">
+<sub>02 &nbsp; / &nbsp; BACKEND · 2024.03 — 2024.05</sub>
+<h3>No24 · 도서 쇼핑몰</h3>
+<p>도서를 찾고 주문하는 온라인 서점. 검색과 카테고리 등 백엔드 기능을 담당했습니다.</p>
+<ul>
+<li><b>검색</b> — Elasticsearch의 도서명·저자·ISBN 등 여러 필드와 자소·n-gram 하위 필드, 페이지네이션을 사용하는 검색 흐름을 구현했습니다.</li>
+<li><b>도메인과 테스트</b> — 자기참조 카테고리 구조와 용도별 응답 DTO를 다루고, CRUD·예외 처리 및 Controller/Service/Repository 테스트에 기여했습니다.</li>
+</ul>
+<p><code>Java</code> <code>Spring</code> <code>Elasticsearch</code> <code>QueryDSL</code> <code>Redis</code></p>
+<p><a href="https://github.com/nhnacademy-be5-no24/no24-shop"><b>Shop Server ↗</b></a> &nbsp; · &nbsp; <a href="https://github.com/nhnacademy-be5-no24/no24-frontend">검색 구현 저장소 ↗</a> &nbsp; · &nbsp; <a href="projects/no24.md">구현 과정 →</a></p>
+</td></tr>
+</table>
 
-**Data**  
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=flat-square&logo=elasticsearch&logoColor=white)
+<table>
+<tr><td>
+<img src="assets/roadai.svg" width="48" height="48" align="right" alt="">
+<sub>03 &nbsp; / &nbsp; AI · 2024</sub>
+<h3>ROADAI · 도로시설물 훼손 탐지</h3>
+<p>주행 이미지에서 횡단보도와 과속방지턱의 종류·훼손 여부를 탐지하는 모델을 학습했습니다.</p>
+<ul>
+<li><b>데이터에서 평가까지</b> — 데이터 선별, Segmentation 기반 YOLO 라벨 변환, 학습·검증 분할과 YOLOv8s 학습·평가를 담당했습니다. AI 보조를 활용해 코드를 구현하고 직접 실행·검증했습니다.</li>
+</ul>
+<p><code>Python</code> <code>YOLOv8s</code> <code>Data Preprocessing</code></p>
+<p><a href="projects/roadai.md"><b>학습 과정과 결과 읽기 →</b></a></p>
+</td></tr>
+</table>
 
-**Infra & Tools**  
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+<details>
+<summary><b>현재 작업 · 공동 공연 수익 정산 프로젝트</b></summary>
+<br>
+팀장·프런트엔드 역할로 React·TypeScript 화면과 Web3Auth 지갑, Kaia 사용자 서명 흐름을 연동하고 있습니다. 진행 중인 작업으로, 완료 프로젝트와 구분해 기록합니다.
+</details>
 
-## Selected Projects
+<br>
 
-| Project | Role | What I worked on |
-| :--- | :--- | :--- |
-| **DODAM · 도담** | Backend | 인증·인가와 자원 소유권 검증, AI 서비스 연동 경계, 서버 PDF 리포트 구현 |
-| **[No24](https://github.com/nhnacademy-be5-no24)** | Backend | Elasticsearch 검색, 계층형 카테고리 API·DTO·테스트 구현 |
-| **ROADAI** | AI | YOLOv8s 학습·평가 참여, 관련 논문 공동저자 |
-| **공동 공연 수익 정산 프로젝트** | Team Lead · Frontend | React·TypeScript 화면 구현, Web3Auth 지갑과 Kaia 사용자 서명 흐름 연동 *(진행 중)* |
+## Toolbox
 
-### DODAM
+프로젝트에서 사용한 기술을 중심으로 정리했습니다.
 
-아동의 그림 활동과 AI 대화를 보호자가 확인하는 서비스입니다.
+| 영역 | 기술 |
+| :--- | :--- |
+| **Backend** | Java · Spring Boot · Spring Security · JPA · QueryDSL |
+| **Data & Search** | MySQL · Redis · Elasticsearch |
+| **Delivery & Collaboration** | Docker · Jenkins · Git · GitHub Actions |
 
-- 인증 사용자와 아동·그림 활동의 소유 관계를 공통 로직으로 검증했습니다.
-- 외부 AI 서비스의 응답과 실패를 API 계약 안에서 처리했습니다.
-- HTML/CSS 기반 서버 템플릿으로 PDF 리포트 생성 경로를 통합했습니다.
-- **SSAFY 공통 프로젝트 우수상**을 팀으로 수상했습니다.
+<br>
 
-### No24
+## Milestones
 
-온라인 도서 쇼핑몰의 백엔드 기능을 개발했습니다.
+- **우수상** · SSAFY 공통 프로젝트 DODAM — 팀 수상
+- **대상** · SW아카데미 NHN Academy 프로젝트 최종발표회 No24 — 팀 수상
+- **장려상** · 2024 한국소프트웨어종합학술대회 학부생/주니어 논문경진대회 — ROADAI 관련 논문 공동저자 · 2025.02.03
 
-- Elasticsearch를 활용해 도서명·저자·ISBN 검색을 구현했습니다.
-- 자기참조 카테고리의 CRUD와 계층별 응답 DTO·테스트를 구현했습니다.
-- **SW아카데미 NHN Academy 프로젝트 최종발표회 대상**을 팀으로 수상했습니다.
+**정보처리기사 · SQLD · TOEIC Speaking IH**<br>
+SSAFY SW 역량평가 **A등급** · 2026.03.06
 
-[Shop Server](https://github.com/nhnacademy-be5-no24/no24-shop) · [Search & Frontend](https://github.com/nhnacademy-be5-no24/no24-frontend)
+<br>
 
-## Achievements
+## Practice & activity
 
-- **장려상** · 2024 한국소프트웨어종합학술대회 학부생/주니어 논문경진대회  
-  ROADAI 관련 논문 공동저자 · 한국정보과학회 · 2025.02.03
-- **우수상** · SSAFY 공통 프로젝트 DODAM · 팀 수상
-- **대상** · SW아카데미 NHN Academy 프로젝트 최종발표회 No24 · 팀 수상
-- **정보처리기사 · SQLD · TOEIC Speaking IH**
+Java로 풀어 온 문제와 풀이 코드는 <a href="https://github.com/byegu/Algorithm"><b>Algorithm</b></a>에 모으고 있습니다.
 
-## Problem Solving & Activity
+<a href="https://solved.ac/profile/rkdqudrn07">
+  <img src="https://mazassumnida.wtf/api/v2/generate_badge?boj=rkdqudrn07" alt="rkdqudrn07의 solved.ac 프로필" width="360">
+</a>
 
-<div align="center">
+<br>
 
-[![Solved.ac Profile](https://mazassumnida.wtf/api/v2/generate_badge?boj=rkdqudrn07)](https://solved.ac/profile/rkdqudrn07)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/activity-light.svg">
+  <img src="assets/activity-light.svg" alt="byegu의 GitHub 기여 기록으로 생성한 잔디 애니메이션" width="100%">
+</picture>
 
-[![Algorithm](https://img.shields.io/badge/Algorithm-Java%20solutions-0F172A?style=for-the-badge&logo=github&logoColor=white)](https://github.com/byegu/Algorithm)
-
-</div>
+<sub>Contribution art updates daily with GitHub Actions. Built with <a href="https://github.com/Platane/snk">snk</a>.</sub>
