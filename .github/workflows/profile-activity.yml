@@ -1,0 +1,50 @@
+name: Refresh profile activity
+
+on:
+  schedule:
+    - cron: '17 21 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/profile-activity.yml
+
+permissions:
+  contents: read
+
+concurrency:
+  group: profile-activity
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - name: Check out profile
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+
+      - name: Generate contribution animations
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            assets/activity-light.svg?color_snake=%230d9488&color_dots=%23eef2f6,%23ccfbf1,%235eead4,%2314b8a6,%230f766e
+            assets/activity-dark.svg?palette=github-dark&color_snake=%235eead4&color_dots=%23151f30,%2313423f,%230f766e,%2314b8a6,%235eead4
+
+      - name: Publish only generated assets
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -s assets/activity-light.svg
+          test -s assets/activity-dark.svg
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- assets/activity-light.svg assets/activity-dark.svg
+          if ! git diff --cached --quiet; then
+            git commit -m 'chore: refresh profile contribution art'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
