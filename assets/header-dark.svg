@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="300" viewBox="0 0 960 300" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">byegu — Backend Developer</title>
+  <desc id="desc">An original navy and teal blueprint connecting requests, policy, and data.</desc>
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" stroke="#26334B" stroke-opacity=".42"/></pattern>
+    <linearGradient id="wash" x1="0" y1="0" x2="960" y2="300" gradientUnits="userSpaceOnUse"><stop stop-color="#101B30"/><stop offset="1" stop-color="#0B1220"/></linearGradient>
+    <linearGradient id="wire" x1="590" y1="76" x2="860" y2="240" gradientUnits="userSpaceOnUse"><stop stop-color="#818CF8"/><stop offset="1" stop-color="#5EEAD4"/></linearGradient>
+  </defs>
+  <rect x=".5" y=".5" width="959" height="299" rx="18" fill="url(#wash)" stroke="#26334B"/>
+  <rect x="520" y="1" width="420" height="298" fill="url(#grid)"/>
+  <path d="M38 37H57M38 37V56M922 263H903M922 263V244" stroke="#5EEAD4" stroke-width="2"/>
+  <text x="65" y="61" fill="#5EEAD4" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="13" letter-spacing="3">BACKEND DEVELOPER</text>
+  <text x="59" y="160" fill="#F1F5F9" font-family="Segoe UI, Arial, sans-serif" font-size="93" font-weight="700" letter-spacing="-5">byegu<tspan fill="#5EEAD4">.</tspan></text>
+  <text x="65" y="202" fill="#BBC7DB" font-family="Segoe UI, Arial, sans-serif" font-size="20">Java &amp; Spring. Thoughtful by design.</text>
+  <path d="M65 233H440" stroke="#2A3850"/>
+  <text x="65" y="260" fill="#8495AF" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12" letter-spacing="1">AUTHORIZATION / DATA / SERVICE INTEGRATION</text>
+  <g stroke="url(#wire)" stroke-width="1.5">
+    <path d="M578 90H665Q678 90 678 103V141Q678 154 691 154H818"/>
+    <path d="M578 210H633Q646 210 646 197V171Q646 158 659 158H702" opacity=".55"/>
+    <path d="M826 170V223Q826 236 813 236H706"/>
+  </g>
+  <g fill="#111E32" stroke="#344461">
+    <rect x="564" y="62" width="118" height="48" rx="9"/>
+    <rect x="698" y="130" width="136" height="48" rx="9"/>
+    <rect x="774" y="210" width="126" height="48" rx="9"/>
+  </g>
+  <g font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="13" letter-spacing="1.5">
+    <text x="585" y="92" fill="#A5B4FC">REQUEST</text><text x="739" y="160" fill="#F1F5F9">POLICY</text><text x="818" y="240" fill="#5EEAD4">DATA</text>
+  </g>
+  <circle cx="578" cy="210" r="5" fill="#818CF8"/><circle cx="706" cy="236" r="5" fill="#5EEAD4"/>
+  <text x="828" y="57" fill="#667B98" font-family="ui-monospace, Consolas, monospace" font-size="11">01 / BUILD</text>
+</svg>
