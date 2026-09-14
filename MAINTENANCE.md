@@ -5,6 +5,7 @@
 - The hero and project marks in `assets/` are original SVGs. They contain no script, remote font or embedded external resource.
 - The README uses native Markdown/HTML for project descriptions and links. The core portfolio remains readable when an external badge is unavailable.
 - Both hero themes use the same geometry and copy. Update both `header-light.svg` and `header-dark.svg` together.
+- Toolbox badges are self-hosted SVGs with fixed, high-contrast label backgrounds and light logo tiles for both GitHub themes. Their Devicon sources and license are recorded in `assets/STACK-ICONS-LICENSE.md`. JPA and QueryDSL intentionally use text-only badges; Spring Boot and Spring Security share the Spring family mark.
 - `projects/` contains personal case studies, not copies of the team source repositories.
 
 ## Activity

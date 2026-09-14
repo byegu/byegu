@@ -60,9 +60,9 @@ Java와 Spring을 중심으로 인증·인가, 검색, 서비스 연동을 개�
 
 | 영역 | 기술 |
 | :--- | :--- |
-| **Backend** | Java · Spring Boot · Spring Security · JPA · QueryDSL |
-| **Data & Search** | MySQL · Redis · Elasticsearch |
-| **Delivery & Collaboration** | Docker · Jenkins · Git · GitHub Actions |
+| **Backend** | <img src="assets/stack-java.svg" alt="Java" height="28"> <img src="assets/stack-spring-boot.svg" alt="Spring Boot" height="28"> <img src="assets/stack-spring-security.svg" alt="Spring Security" height="28"><br><img src="assets/stack-jpa.svg" alt="JPA" height="28"> <img src="assets/stack-querydsl.svg" alt="QueryDSL" height="28"> |
+| **Data & Search** | <img src="assets/stack-mysql.svg" alt="MySQL" height="28"> <img src="assets/stack-redis.svg" alt="Redis" height="28"> <img src="assets/stack-elasticsearch.svg" alt="Elasticsearch" height="28"> |
+| **Delivery & Collaboration** | <img src="assets/stack-docker.svg" alt="Docker" height="28"> <img src="assets/stack-jenkins.svg" alt="Jenkins" height="28"> <img src="assets/stack-git.svg" alt="Git" height="28"> <img src="assets/stack-github-actions.svg" alt="GitHub Actions" height="28"> |
 
 <br>
 
