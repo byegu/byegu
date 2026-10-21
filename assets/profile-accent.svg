@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="28" viewBox="0 0 960 28" fill="none">
+  <title>프로필 구분선</title>
+  <path d="M0 14H960" stroke="#94A3B8" stroke-opacity=".23"/>
+  <path d="M0 14H64" stroke="#4F7CFF" stroke-width="3" stroke-linecap="round"/>
+  <path d="M888 14H922L930 6H956" stroke="#4F7CFF" stroke-opacity=".55" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="888" cy="14" r="3.5" fill="#4F7CFF"/>
+  <circle cx="916" cy="14" r="3.5" fill="#14B8A6"/>
+  <circle cx="956" cy="6" r="3.5" fill="#94A3B8"/>
+</svg>

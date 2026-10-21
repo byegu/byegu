@@ -1,6 +1,6 @@
 # DODAM · 도담
 
-[← Profile](../README.md)
+[← 프로필](../README.md) · [소스 저장소 ↗](https://github.com/byegu/dodam)
 
 아동이 그림과 AI 대화로 경험을 표현하고, 보호자가 기록과 참고용 리포트를 확인하는 서비스입니다. 심리 진단·치료·발달 수준 판정은 제공하지 않습니다.
 
