@@ -6,9 +6,17 @@
 
 **2026.07.06 — 2026.08.14 · 6인 팀 · Backend Developer**
 
+## 시스템 아키텍처
+
+[![도담 팀 시스템 아키텍처](https://raw.githubusercontent.com/byegu/dodam/main/docs/readme/system-architecture.png)](https://github.com/byegu/dodam/blob/main/docs/readme/system-architecture.png)
+
+최종 발표에 사용한 팀 전체 구성도입니다. 최종 실행 환경은 Docker Compose이며, 그림 전체가 개인 구현 범위를 뜻하지는 않습니다. 이미지를 누르면 확대해서 볼 수 있습니다.
+
 ## 제가 맡은 부분
 
 인증·인가, 그림 활동 API, AI 분석 서비스의 백엔드 연동, 서버 PDF 리포트에 기여했습니다. AI 모델 개발과 인프라 전체는 제 개인 담당 범위가 아닙니다.
+
+[![도담 개인 담당 백엔드 처리 경계](https://raw.githubusercontent.com/byegu/dodam/main/docs/readme/implementation-flow.svg)](https://github.com/byegu/dodam/blob/main/docs/readme/implementation-flow.svg)
 
 ### 1. 사용자 인증 이후에도 자원 소유권 확인
 

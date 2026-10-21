@@ -6,9 +6,17 @@
 
 여러 밴드가 함께 여는 소규모 공연의 티켓 예매·입장·수익 정산을 연결한 플랫폼입니다. 관객이 응원할 팀을 선택하고 서명해 결제하는 시연용 서비스로, 법정화폐가 아닌 Kaia Kairos 테스트넷의 YoYo 코인을 사용합니다. 최종 발표는 2026.09.28에 완료했습니다.
 
+## 시스템 아키텍처
+
+[![불러요 팀 시스템 구조와 개인 담당 프론트엔드 범위](https://raw.githubusercontent.com/byegu/bulleoyo/main/docs/readme/system-architecture.png)](https://github.com/byegu/bulleoyo/blob/main/docs/readme/system-architecture.svg)
+
+최종 발표자료의 기술 로고와 연결 구조를 바탕으로 문서용으로 정리했습니다. 전체 시스템은 팀 구성이고, 강조한 결제 상태·재시도 복구가 아래 개인 구현의 중심입니다.
+
 ## 제가 맡은 부분
 
 프론트엔드 결제 화면의 상태 판단과 실패 후 재시도 복구 경계를 구현했습니다. 아래는 해당 화면과 테스트에 한정한 개인 기여입니다. 스마트컨트랙트·백엔드 체인 모듈·인프라는 다른 팀원 담당입니다.
+
+[![불러요 PaymentPage 결제 재시도와 화면 판단 흐름](https://raw.githubusercontent.com/byegu/bulleoyo/main/docs/readme/payment-recovery.png)](https://github.com/byegu/bulleoyo/blob/main/docs/readme/payment-recovery.svg)
 
 ## 1. 접수와 완료를 구분하는 화면
 
