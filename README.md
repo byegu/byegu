@@ -13,8 +13,23 @@ Java와 Spring을 중심으로 인증·인가, 검색, 외부 서비스 연동�
 
 <table>
 <tr><td>
+<sub>01 &nbsp; · &nbsp; 2026.10 — 2026.11 &nbsp; · &nbsp; 백엔드</sub>
+<h3><a href="projects/signull.md">Signull</a></h3>
+<p>시험 본부가 무선 신호 관측과 후보 구역을 보고, 감독관의 현장 확인을 교시 보고서에 남기는 서비스입니다.</p>
+<ul>
+<li><b>센서 데이터</b> — MQTT 중계와 Spring 검증·저장의 책임 분담에 참여하고, 메시지 계약을 기준으로 저장·재생 검증 순서를 정했습니다.</li>
+<li><b>감독관 권한</b> — 시험별 초대·승인·고사실 배정이 권한에 이어지는 경로를 검토하고, 두 탭에서 로그인 상태가 덮이는 증상을 재현해 공유했습니다.</li>
+<li><b>교시 보고서</b> — 감독관의 회신을 본부가 다시 입력하는 흐름을 없애자고 제안하고, 종료와 미처리 건부터 확인하도록 검증 순서를 정했습니다.</li>
+</ul>
+<p><code>Java 21</code> <code>Spring Boot</code> <code>PostgreSQL</code> <code>Flyway</code> <code>MQTT</code></p>
+<p><a href="projects/signull.md"><b>백엔드 기여와 검증 →</b></a></p>
+</td></tr>
+</table>
+
+<table>
+<tr><td>
 <a href="https://github.com/byegu/dodam"><img src="assets/dodam-service-logo.png" width="56" height="56" align="right" alt="도담 서비스 로고"></a>
-<sub>01 &nbsp; · &nbsp; 2026.07 — 2026.08 &nbsp; · &nbsp; 백엔드</sub>
+<sub>02 &nbsp; · &nbsp; 2026.07 — 2026.08 &nbsp; · &nbsp; 백엔드</sub>
 <h3><a href="https://github.com/byegu/dodam">도담</a></h3>
 <p>아이의 그림과 AI 대화를 보호자가 함께 돌아보는 서비스입니다.<br>분석은 이해를 돕는 참고 정보이며, 심리 진단·치료를 제공하지 않습니다.</p>
 <ul>
@@ -30,7 +45,7 @@ Java와 Spring을 중심으로 인증·인가, 검색, 외부 서비스 연동�
 <table>
 <tr><td>
 <a href="https://github.com/byegu/bulleoyo"><img src="assets/bulleoyo-service-logo.svg" width="126" height="54" align="right" alt="불러요 서비스 로고"></a>
-<sub>02 &nbsp; · &nbsp; 2026.08 — 2026.10 &nbsp; · &nbsp; 프론트엔드·팀장</sub>
+<sub>03 &nbsp; · &nbsp; 2026.08 — 2026.10 &nbsp; · &nbsp; 프론트엔드·팀장</sub>
 <h3><a href="https://github.com/byegu/bulleoyo">불러요</a></h3>
 <p>여러 밴드의 공동 공연을 위한 티켓 예매·입장·수익 정산 플랫폼입니다.<br>Kaia Kairos 테스트넷을 사용하는 시연용 서비스입니다.</p>
 <ul>
@@ -46,7 +61,7 @@ Java와 Spring을 중심으로 인증·인가, 검색, 외부 서비스 연동�
 <table>
 <tr><td>
 <a href="https://github.com/nhnacademy-be5-no24/no24-shop"><img src="assets/no24-service-logo.png" width="140" height="48" align="right" alt="No24 서비스 로고"></a>
-<sub>03 &nbsp; · &nbsp; 2024.03 — 2024.05 &nbsp; · &nbsp; 백엔드</sub>
+<sub>04 &nbsp; · &nbsp; 2024.03 — 2024.05 &nbsp; · &nbsp; 백엔드</sub>
 <h3><a href="https://github.com/nhnacademy-be5-no24/no24-shop">No24</a></h3>
 <p>도서를 찾고 주문하는 온라인 서점입니다. 검색·카테고리 등 백엔드 기능을 담당했습니다.</p>
 <ul>
