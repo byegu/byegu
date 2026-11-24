@@ -1,7 +1,7 @@
 # 강병구 <sub>byegu</sub>
 
-Java와 Spring을 중심으로 인증·인가, 검색, 외부 서비스 연동을 개발해 왔습니다.<br>
-정상 동작뿐 아니라 **데이터 접근 권한과 실패 이후의 흐름**도 함께 확인합니다.
+Java와 Spring으로 **인증·인가, 검색 API, 외부 서비스 연동**을 다뤘습니다.<br>
+화면의 요청이 권한 검사와 데이터 저장을 거쳐 어디까지 처리됐는지 확인합니다.
 
 [프로젝트](#프로젝트) &nbsp; · &nbsp; [기술 스택](#기술-스택) &nbsp; · &nbsp; [수상·자격](#수상자격) &nbsp; · &nbsp; [학습 기록](#학습-기록)
 
@@ -13,13 +13,14 @@ Java와 Spring을 중심으로 인증·인가, 검색, 외부 서비스 연동�
 
 <table>
 <tr><td>
+<a href="projects/signull.md"><img src="assets/signull-signal.svg" width="56" height="56" align="right" alt="무선 신호"></a>
 <sub>01 &nbsp; · &nbsp; 2026.10 — 2026.11 &nbsp; · &nbsp; 백엔드</sub>
 <h3><a href="projects/signull.md">Signull</a></h3>
 <p>시험 본부가 무선 신호 관측과 후보 구역을 보고, 감독관의 현장 확인을 교시 보고서에 남기는 서비스입니다.</p>
 <ul>
-<li><b>센서 데이터</b> — MQTT 중계와 Spring 검증·저장의 책임 분담에 참여하고, 메시지 계약을 기준으로 저장·재생 검증 순서를 정했습니다.</li>
-<li><b>감독관 권한</b> — 시험별 초대·승인·고사실 배정이 권한에 이어지는 경로를 검토하고, 두 탭에서 로그인 상태가 덮이는 증상을 재현해 공유했습니다.</li>
-<li><b>교시 보고서</b> — 감독관의 회신을 본부가 다시 입력하는 흐름을 없애자고 제안하고, 종료와 미처리 건부터 확인하도록 검증 순서를 정했습니다.</li>
+<li><b>센서 데이터</b> — MQTT 중계와 Spring 저장의 책임 분담에 참여하고, 계약에 맞춰 저장·재생을 검증할 순서를 정했습니다.</li>
+<li><b>감독관 권한</b> — 시험별 승인·고사실 배정이 서버 권한에 반영되는 흐름을 검토하고, 두 탭의 로그인 충돌을 공유했습니다.</li>
+<li><b>교시 보고서</b> — 본부가 현장 결과를 다시 입력하지 않아도 되도록 감독관 회신을 저장하는 흐름을 제안했습니다.</li>
 </ul>
 <p><code>Java 21</code> <code>Spring Boot</code> <code>PostgreSQL</code> <code>Flyway</code> <code>MQTT</code></p>
 <p><a href="projects/signull.md"><b>백엔드 기여와 검증 →</b></a></p>
@@ -82,7 +83,7 @@ Java와 Spring을 중심으로 인증·인가, 검색, 외부 서비스 연동�
 | 영역 | 기술 |
 | :--- | :--- |
 | **백엔드** | <img src="assets/stack-java.svg" alt="Java" height="28"> <img src="assets/stack-spring-boot.svg" alt="Spring Boot" height="28"> <img src="assets/stack-spring-security.svg" alt="Spring Security" height="28"><br><img src="assets/stack-jpa.svg" alt="JPA" height="28"> <img src="assets/stack-querydsl.svg" alt="QueryDSL" height="28"> |
-| **데이터·검색** | <img src="assets/stack-mysql.svg" alt="MySQL" height="28"> <img src="assets/stack-redis.svg" alt="Redis" height="28"> <img src="assets/stack-elasticsearch.svg" alt="Elasticsearch" height="28"> |
+| **데이터·검색** | <img src="assets/stack-postgresql.svg" alt="PostgreSQL" height="28"> <img src="assets/stack-mysql.svg" alt="MySQL" height="28"> <img src="assets/stack-redis.svg" alt="Redis" height="28"><br><img src="assets/stack-elasticsearch.svg" alt="Elasticsearch" height="28"> |
 | **프론트엔드** | React · TypeScript |
 | **개발·협업 도구** | <img src="assets/stack-docker.svg" alt="Docker" height="28"> <img src="assets/stack-jenkins.svg" alt="Jenkins" height="28"> <img src="assets/stack-git.svg" alt="Git" height="28"> <img src="assets/stack-github-actions.svg" alt="GitHub Actions" height="28"> |
 

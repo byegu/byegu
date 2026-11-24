@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" role="img" aria-label="무선 신호">
+  <title>무선 신호</title>
+  <rect x="1" y="1" width="54" height="54" rx="12" fill="#e8f3f0" stroke="#bddbd4"/>
+  <path d="M12 22a24 24 0 0 1 32 0M17 28a16 16 0 0 1 22 0M23 34a8 8 0 0 1 10 0" fill="none" stroke="#0b625a" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="28" cy="40" r="2.5" fill="#0b625a"/>
+</svg>

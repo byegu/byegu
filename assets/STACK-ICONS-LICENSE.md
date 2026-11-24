@@ -1,6 +1,6 @@
 # Toolbox icon sources
 
-The stack SVG badges contain Devicon original icons from https://github.com/devicons/devicon/tree/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons (Java, Spring, MySQL, Redis, Elasticsearch, Docker, Jenkins, Git, GitHub Actions).
+The stack SVG badges contain Devicon original icons from https://github.com/devicons/devicon/tree/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons (Java, Spring, PostgreSQL, MySQL, Redis, Elasticsearch, Docker, Jenkins, Git, GitHub Actions).
 
 The Spring family mark identifies both Spring Boot and Spring Security; these are not claimed to be distinct product logos. JPA and QueryDSL use text-only badges rather than an unrelated library's logo. Badge frames and labels were added locally. Logos are used for identification, not endorsement; trademarks belong to their respective owners.
 
